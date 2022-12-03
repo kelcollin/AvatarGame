@@ -24,7 +24,7 @@ h2 {
 #image {
     height: 100vh;
     width: calc(100vh * 1.4285);
-    background-image: url("images/Aang\'s_Journey_title_slide.png");
+    background-image: url("images/title-slide.png");
     background-repeat: no-repeat;
     background-size: auto 100vh;
     margin-left: auto;
