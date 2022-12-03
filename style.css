@@ -1,0 +1,86 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    align-content: center;
+    align-items: center;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: pixelFont;
+    src: url(PixeloidSans.ttf);
+}
+  
+h2 {
+    font-family: pixelFont;
+    color: black;
+    font-size: 24px;
+    initial-letter: 4px;
+}
+
+#image {
+    height: 100vh;
+    width: calc(100vh * 1.4285);
+    background-image: url("images/Aang\'s_Journey_title_slide.png");
+    background-repeat: no-repeat;
+    background-size: auto 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+#text {
+    position: absolute;
+    top: 57vh;
+    left: 24vw;
+    right: 24vw;
+}
+
+#text-content {
+    display: none;
+}
+
+#button-center {
+    display: block;
+    background-image: url('images/default_textbox.png');
+    background-repeat: no-repeat;
+    background-size: 20vw;
+    position: absolute;
+    top: 85vh;
+    left: 40vw;
+    right: 40vw;
+    height: 80px;
+    cursor: pointer;
+    padding-left: 95px;
+}
+
+#button-right {
+    display: none;
+    background-image: url('images/default_textbox.png');
+    background-repeat: no-repeat;
+    background-size: 20vw;
+    position: absolute;
+    top: 85vh;
+    left: 25vw;
+    right: 55vw;
+    height: 80px;
+    cursor: pointer;
+    padding-left: 65px;
+}
+
+#button-left {
+    display: none;
+    background-image: url('images/default_textbox.png');
+    background-repeat: no-repeat;
+    background-size: 20vw;
+    position: absolute;
+    top: 85vh;
+    left: 55vw;
+    right: 25vw;
+    height: 80px;
+    cursor: pointer;
+    padding-left: 85px;
+}
