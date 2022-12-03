@@ -424,7 +424,15 @@ centerbutton.addEventListener('click', function handleClick() {
             break;
         case 148:
             maintext.innerHTML = "The End.";
-            centerbutton.style.display = "none";
+            // centerbutton.style.display = "none";
+            bottontextcenter.innerHTML = 'Restart';
+            break;
+        case 149:
+            image.style.backgroundImage = "url('images/title-slide.png')";
+            bottontextcenter.innerHTML = '- Start -';
+            maintext.style.display = "none";
+            maintext.innerHTML = "You are Aang, the Avatar and you've been frozen in an iceberg for 100 years.";
+            step = -1;
             break;
     }
     step++;
