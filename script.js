@@ -36,12 +36,12 @@ centerbutton.addEventListener('click', function handleClick() {
             break;
         case 3:
             image.style.backgroundImage = "url('images/katara_water.png')";
-            maintext.innerHTML = "Katara: The avatar?? He disappeared 100 years ago!";
+            maintext.innerHTML = "Katara: The avatar? He disappeared 100 years ago!";
             maintext.style.color = 'blue';
             break;
         case 4:
             image.style.backgroundImage = "url('images/aang_water.png')";
-            maintext.innerHTML = "Aang: Wow, I had no idea I had been frozen this long!";
+            maintext.innerHTML = "Aang: Wow, I had no idea I was frozen for this long!";
             maintext.style.color = 'black';
             break;
         case 5:
@@ -113,7 +113,7 @@ centerbutton.addEventListener('click', function handleClick() {
             break;
         case 24:
             image.style.backgroundImage = "url('images/katara_air.png')";
-            maintext.innerHTML = "Katara: It doesn't look like there is anyone here, you must be the last airbender";
+            maintext.innerHTML = "Katara: It doesn't look like there is anyone here, you must be the last airbender!";
             maintext.style.color = 'blue';
             break;
         case 25:
@@ -131,22 +131,22 @@ centerbutton.addEventListener('click', function handleClick() {
             break;
         case 27:
             image.style.backgroundImage = "url('images/aang_air.png')";
-            maintext.innerHTML = "Aang: You're right, but I'm going to need your help";
+            maintext.innerHTML = "Aang: You're right, but I'm going to need your help!";
             maintext.style.color = 'black';
             break;
         case 28:
             image.style.backgroundImage = "url('images/katara_air.png')";
-            maintext.innerHTML = "Katara: Come back with me to the Water Nation, I can bring you to a water master where you'll be able to learn water bending";
+            maintext.innerHTML = "Katara: Come back with me to the Water Nation, I can bring you to a water master where you'll be able to learn water bending!";
             maintext.style.color = 'blue';
             break;
         case 29:
             image.style.backgroundImage = "url('images/zuko.png')";
-            maintext.innerHTML = "Zuko: You cant run from me forever Aang, I will find you";
+            maintext.innerHTML = "Zuko: You cant run from me forever Aang, I will find you!";
             maintext.style.color = 'red';
             break;
         case 30:
             image.style.backgroundImage = "url('images/katara_water.png')";
-            maintext.innerHTML = "Katara: Follow me, we need to find the water bending master";
+            maintext.innerHTML = "Katara: Follow me, we need to find the water bending master.";
             maintext.style.color = 'blue';
             break;
         case 31:
@@ -154,7 +154,7 @@ centerbutton.addEventListener('click', function handleClick() {
             break;
         case 32:
             image.style.backgroundImage = "url('images/water_master.png')";
-            maintext.innerHTML = "Water master: Hello Young ones, how can I benof servoce today?";
+            maintext.innerHTML = "Water master: Hello Young ones, how can I be of service today?";
             break;
         case 33:
             image.style.backgroundImage = "url('images/aang_water.png')";
@@ -163,7 +163,7 @@ centerbutton.addEventListener('click', function handleClick() {
             break;
         case 34:
             image.style.backgroundImage = "url('images/water_master.png')";
-            maintext.innerHTML = "Water master: You seem very nice but I can't just gove out the secrets to water bending to anyone.";
+            maintext.innerHTML = "Water master: You seem very nice, but I can't just gove out the secrets to water bending to anyone.";
             maintext.style.color = 'blue';
             break;
         case 35:
@@ -176,7 +176,7 @@ centerbutton.addEventListener('click', function handleClick() {
             break;
         case 37:
             image.style.backgroundImage = "url('images/aang_water.png')";
-            maintext.innerHTML = "Aang: Let me show you";
+            maintext.innerHTML = "Aang: Let me show you.";
             maintext.style.color = 'black';
             break;
         case 38:
@@ -184,7 +184,7 @@ centerbutton.addEventListener('click', function handleClick() {
             break;
         case 39:
             image.style.backgroundImage = "url('images/water_master.png')";
-            maintext.innerHTML = "Water master: I can't beleive me eyes. You must really be the avatar! I will train you but I still can't train her, our traditions don't allow women to be taught water bending.";
+            maintext.innerHTML = "Water master: I can't beleive my eyes. You must really be the avatar! I will train you but I still can't train her, our traditions don't allow women to be taught water bending.";
             maintext.style.color = 'blue';
             break;
         case 40:
@@ -194,7 +194,7 @@ centerbutton.addEventListener('click', function handleClick() {
             break;
         case 41:
             image.style.backgroundImage = "url('images/water_master.png')";
-            maintext.innerHTML = "Water master: Fine, I'll teach you both";
+            maintext.innerHTML = "Water master: Fine, I'll teach you both.";
             maintext.style.color = 'blue';
             break;
         case 42:
@@ -213,7 +213,7 @@ centerbutton.addEventListener('click', function handleClick() {
                 step = 99;
             } else if (water) {
                 image.style.backgroundImage = "url('images/katara_water.png')";
-                maintext.innerHTML = "Katara: Let's head back to your home the air nation";
+                maintext.innerHTML = "Katara: Let's head back to your home the air nation!";
                 maintext.style.color = 'blue';
                 step = 20;
             }
@@ -242,7 +242,7 @@ centerbutton.addEventListener('click', function handleClick() {
             break;
         case 103:
             image.style.backgroundImage = "url('images/ozai.png')";
-            maintext.innerHTML = "Lord Ozai: Nooo, you came when our powers are weak from the solar eclipse. I must fend you off until it ends";
+            maintext.innerHTML = "Lord Ozai: Nooo, you came when our powers are weak from the solar eclipse. I must fend you off until it ends.";
             maintext.style.color = 'red';
             break;
         case 104:
